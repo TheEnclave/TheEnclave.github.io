@@ -1,0 +1,228 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent
+}
+
+body {
+    line-height: 1
+}
+
+body {
+    font-family: 'Droid Sans', 'Helvetica', sans-serif;
+    font-size: 12px;
+    color: #696868;
+    line-height: 24px
+}
+
+p {
+    font-family: 'Droid Sans', 'Helvetica', sans-serif;
+    font-size: 11.5px;
+    line-height: 26px;
+    color: #7e7e7e;
+    margin: 5px 0px 10px
+}
+
+#background {
+    background: #e1e1e1 url(images/background.png) no-repeat;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: -1
+}
+
+#header-wrap {
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid #dbdbdb;
+    background: #FFFFFF;
+    -moz-box-shadow: 0 2px 12px #606060;
+    -webkit-box-shadow: 0 2px 12px #606060;
+    box-shadow: 0 2px 12px #606060;
+    position: fixed;
+    z-index: 100
+}
+
+#header {
+    width: 960px;
+    margin: 0 auto
+}
+
+#logo {
+    float: left;
+    font-size: 24px;
+    width: 164px;
+    padding: 20px 0px
+}
+
+#logo a {
+    color: #393838;
+    text-decoration: none
+}
+
+#slogan {
+    background: url(images/separator.png) no-repeat scroll 0 center transparent;
+    color: #696868;
+    float: left;
+    font-family: 'Rokkitt','Helvetica',sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    height: 90px;
+    line-height: 94px;
+    padding-left: 20px;
+    width: 300px
+}
+
+#top {
+    padding: 125px 0 35px;
+    width: 960px;
+    margin: 0 auto
+}
+
+.tagline.no-separator {
+    background: none;
+    margin: 0 0 35px 0;
+    padding: 35px 0 0;
+}
+
+.tagline h1 {
+    color: #7f7f7f;
+    font-family: 'Rokkitt','Helvetica',sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: center;
+    text-shadow: 1px 0 1px #FFFFFF
+}
+
+.tagline h3 {
+    text-align: center;
+    font-family: 'Rokkitt', 'Helvetica', sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    color: #AAAAAA;
+    text-shadow: 1px 0px 1px #FFFFFF;
+    margin-bottom: 0
+}
+
+#hero-box {
+    background: #FFFFFF;
+    border: 1px solid #808080;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+#hero-box h1 {
+    font-size: 5em;
+    font-family: 'Rokkitt','Helvetica',sans-serif;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+hr {
+  margin: 50px;
+}
+
+#testimonials {
+
+}
+
+#testimonials p {
+  background: #F8F8F8;
+  border: 1px solid #808080;
+  border-radius: 6px;
+  padding: 10px 20px;
+  width: 700px;
+  position: relative;
+}
+
+#testimonials p:nth-of-type(odd) {
+  float: left;
+  display: inline-block;
+  text-align: left;
+  position: relative;
+}
+
+#testimonials p:nth-of-type(odd) .name {
+  position: absolute;
+  right: -230px;
+  top: 0;
+  width: 200px;
+  text-align: left;
+}
+
+#testimonials p:nth-of-type(odd):before {
+  content: '';
+  position: absolute;
+  width: 0;
+  z-index: 0;
+  border-style: solid;
+  border-width: 11px 11px 0 0;
+  border-color: #808080 transparent transparent transparent;
+  top: 20px;
+  right: -12px;
+  margin-top: -6px;
+  display: block;
+}
+
+#testimonials p:nth-of-type(odd):after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  z-index: 1;
+  border-style: solid;
+  border-width: 10px 10px 0 0;
+  border-color: #f8f8f8 transparent transparent transparent;
+  top: 20px;
+  right: -10px;
+  margin-top: -5px;
+}
+
+#testimonials p:nth-of-type(even) {
+  float: right;
+  display: inline-block;
+  text-align: right;
+  position: relative;
+}
+
+#testimonials p:nth-of-type(even) .name {
+  position: absolute;
+  left: -230px;
+  top: 0;
+  width: 200px;
+  text-align: right;
+}
+
+#testimonials p:nth-of-type(even):before {
+    content: '';
+    position: absolute;
+    width: 0;
+    z-index: 0;
+    border-style: solid;
+    border-width: 0 11px 11px 0;
+    border-color: transparent #808080 transparent transparent;
+    top: 20px;
+    left: -12px;
+    margin-top: -6px;
+    display: block;
+}
+
+#testimonials p:nth-of-type(even):after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 0 10px 10px 0;
+    border-color: transparent #f8f8f8 transparent transparent;
+    top: 20px;
+    left: -10px;
+    margin-top: -5px;
+}
